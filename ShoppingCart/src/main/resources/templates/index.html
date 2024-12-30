@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="~{base::layout(~{::section})}"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- Start Slider -->
+    <section>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/ecom1.png" class="d-block w-100" alt="..." height="350px">
+              </div>
+              <div class="carousel-item">
+                <img src="img/ecom2.png" class="d-block w-100" alt="..." height="350px">
+              </div>
+              <div class="carousel-item">
+                <img src="img/ecom3.png" class="d-block w-100" alt="..." height="350px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      <!-- End Slider -->
+
+      <!-- Start Category Module-->
+       <section>
+        <div class="container-fluid bg-light p-3">
+          <div class="row">
+            <p class="text-center fs-4">Category</p>
+            <div class="col-md-2">
+              <div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded ">
+                <div class="card-body text-center">
+                  <img src="img/category_imgs/elec.png" width="80%" height="120px"><br>
+                  <p>Electronics</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded ">
+                <div class="card-body text-center">
+                  <img src="img/category_imgs/beauty.png" width="80%" height="120px"><br>
+                  <p>Beauty</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded ">
+                <div class="card-body text-center">
+                  <img src="img/category_imgs/kitchen.png" width="80%" height="120px"><br>
+                  <p>Kitchen</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded ">
+                <div class="card-body text-center">
+                  <img src="img/category_imgs/kids.png" width="80%" height="120px"><br>
+                  <p>Kids Clothing</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded ">
+                <div class="card-body text-center">
+                  <img src="img/category_imgs/mobile.png" width="80%" height="120px"><br>
+                  <p>Mobile</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded ">
+                <div class="card-body text-center">
+                  <img src="img/category_imgs/fashion.png" width="80%" height="120px"><br>
+                  <p>Fashion</p>
+                </div>
+              </div>
+            </div>
+       </section>
+       <!-- End Category Module -->
+
+       <!-- Start Latest Products -->
+      <section>
+        <div class = "container-fluid bg-light p-3">
+          <div class = "row">
+            <p class = "text-center fs-4">Latest Products</p>
+            <div class="col-md-3">
+              <div class="card shadow-sm p-3 mb-5 bg-body-tertiary text-center square-box">
+                  <div class="card-body">
+                      <img src="img/category_imgs/fashion.png" class="img-fluid" alt="Fashion">
+                      <p class="mt-2">Fashion</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-sm p-3 mb-5 bg-body-tertiary text-center square-box">
+                <div class="card-body">
+                    <img src="img/category_imgs/fashion.png" class="img-fluid" alt="Fashion">
+                    <p class="mt-2">Fashion</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-sm p-3 mb-5 bg-body-tertiary text-center square-box">
+              <div class="card-body">
+                  <img src="img/category_imgs/fashion.png" class="img-fluid" alt="Fashion">
+                  <p class="mt-2">Fashion</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-sm p-3 mb-5 bg-body-tertiary text-center square-box">
+                <div class="card-body">
+                    <img src="img/category_imgs/fashion.png" class="img-fluid" alt="Fashion">
+                    <p class="mt-2">Fashion</p>
+                </div>
+            </div>
+        </div>
+          </div>
+        </div>
+      </section>
+       <!-- End Latest Product -->
+    </body>
+</html>
