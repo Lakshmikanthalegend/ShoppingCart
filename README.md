@@ -6,8 +6,11 @@ This Shopping Cart project is a web application developed using Spring Boot and 
 
 **Features :**
 User Authentication: Secure login and registration for users.
+
 Product Management: Browse and search for products with detailed descriptions.
+
 Shopping Cart: Add, remove, and update product quantities in the cart.
+
 Checkout Process: Seamless checkout experience with order summary.
 Responsive Design: Mobile-friendly user interface for better accessibility.
 
